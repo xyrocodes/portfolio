@@ -6,6 +6,250 @@ body {
     font-family: "Merriweather", serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+}
+
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-size: 36pt;
+    font-family: sans-serif;
+    color: rgb(211, 223, 231);
+    line-height: 2;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: rgb(211, 223, 231);
+    font-weight: normal;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(211, 223, 231);
+}
+
+.top-container {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding-top: 1px;
+}
+
+.name {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.middle-container {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding-top: 1px;
+}
+
+.social {
+    color: rgb(255, 255, 255);
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skills2 {
+    padding-top: 15px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.intro {
+    font-size: 80%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0%;
+    padding-top: 10px;
+    text-align: left;
+    color: rgb(187, 195, 201);
+}
+
+.skills {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.web-dev {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.py {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.css {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.html {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.git {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.vscode {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chrome {
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+}
+
+.javascript {
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+}
+
+.blender {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.photoshop {
+    width: 10%;
+    float: left;
+    margin-right: 30px;
+}
+
+p {
+    text-decoration-color: rgb(211, 223, 231);
+}
+
+hr {
+    width: 4%;
+    border: dotted rgb(211, 223, 231) 6px;
+    border-bottom: none;
+    margin: 100px auto auto;
+}
+
+.BUTTON_YPB {
+    background: rgb(255, 255, 255);
+    background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: -ms-linear-gradient(top, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: -o-linear-gradient(top, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-image: -webkit-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.BUTTON_YPB:hover {
+    border: solid rgb(150, 156, 160) 1px;
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, rgb(150, 156, 160), rgb(150, 156, 160));
+    background-image: -moz-linear-gradient(top, rgb(150, 156, 160), rgb(150, 156, 160));
+    background-image: -ms-linear-gradient(top, rgb(150, 156, 160), rgb(150, 156, 160));
+    background-image: -o-linear-gradient(top, rgb(150, 156, 160), rgb(150, 156, 160));
+    background-image: -webkit-gradient(to bottom, rgb(150, 156, 160), rgb(150, 156, 160));
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bottom-container {
+    background-color: rgb(0, 0, 0);
+    padding: 25px 0 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+.copyright {
+    color: #ffffff;
+
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+.my-pic {
+    width: 15%;
+}
+
+.clg {
+    margin: 0 0 0 0;
+}
+
 
 
 h1 {
